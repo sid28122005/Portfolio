@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta 
+        name="description"
+        content="My portfolio website to showcase the work I have done so far, the services I provide and all my professional life."
+    />
+    <meta name="keywords" content="HTML, CSS, JavaScript, Portfolio Website"/>
+    <meta name="author" content="Sakshi Wanare"/>
+    <link rel="shortcut icon" href="images/favion/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>portfolio</title>
+    <link 
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="index.js"></script>
+</head>
+<body>
+    <header class="header">
+        <img src="images/logo1.png" alt="our main logo" class="logo">
+
+        <nav class="navbar">
+            <ul class="navbar-lists">
+                <li><a href="./index.html" class="navbar-link home-link">Home</a></li>
+                <li><a href="./about.html" class="navbar-link about-link">About</a></li>
+                <li><a href="./service.html" class="navbar-link service-link">Services</a></li>
+                <li><a href="./portfolio.html" class="navbar-link portfolio-link">portfolio</a></li>
+                <li><a href="./contact.html" class="navbar-link contact-link">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-navbar-btn">
+            <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+            <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+        </div>
+    </header>
+
+    <!--- =======================================================
+            Our main Hero Section start
+    =====================================================  ---->
+
+    <main>
+        <section class="section-hero section">
+            <div class="container grid grid-two-column">
+                <div class="section-hero-data">
+                    <p class="hero-top-data">this is me</p>
+                    <h1 class="hero-heading">Sakshi Wanare</h1>
+                    <p class="hero-para">
+                        I'm sakshi krushna wanare. <br> A Full stack Developer, Programmer and Civil Engineer.
+                    </p>
+                    <div>
+                        <a href="#" class="btn hireme-btn">Hire Me</a>
+                    </div>
+                </div>
+                <!-- hero section right side -->
+                <div class="section-hero-image">
+                    <img 
+                        src="images/amico.png" 
+                        alt="this is img"
+                        class="hero-img"
+                    />
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--- =======================================================
+            Our main Hero Section start
+    =====================================================  ---->
+
+    <section class="section-biodata section" >
+        <div class="container grid grid-two-column">
+            <div class="bio-image">
+                <img 
+                    src="images/bio.jpg" alt="my bio data image"/>
+            </div>
+            <!-- bio right side data -->
+            <div class="bio-data">
+                <h2 class="common-heading">my bio-data</h2>
+                <p>
+                    Web developer or engineer who works with both the front and back ends of a website or application. Provide an end-to-end service, and can be involved in projects that involve databases and building user-facing websites. 
+                </p>
+                <div class="bio-data-stats">
+                    <div class="bio-stats">
+                        <h3>Design</h3>
+                        <div class="bio-progress-bar">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>HTML</h3>
+                        <div class="bio-progress-bar bio-progress-2">
+                            <span>85%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>CSS</h3>
+                        <div class="bio-progress-bar bio-progress-3">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>JavaScript</h3>
+                        <div class="bio-progress-bar bio-progress-4">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>MERN</h3>
+                        <div class="bio-progress-bar bio-progress-5">
+                            <span>65%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>Programmer</h3>
+                        <div class="bio-progress-bar bio-progress-6">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bio-data-btn">
+                    <a href="https://drive.google.com/file/d/1uZ16BI_Nf7GQr2FGDAuMPMss07wasM1d/view?usp=sharing" class="btn">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--- =======================================================
+            Our portfolio Section start
+    =====================================================  ---->
+
+    <section class="section section-portfolio" id="portfolio-section">
+        <div class="container">
+            <h2 class="common-heading">Latest Works</h2>
+            <p>
+                Explore...!!    
+            </p>
+        </div>
+
+        <div class="btngp p-btns">
+            <div class="btn p-btn" data-btn-num="1">Website</div>
+            <div class="btn p-btn" data-btn-num="2">Design</div>
+            <div class="btn p-btn" data-btn-num="3">Programming</div>
+        </div>
+        <br>
+        <br>
+        <div class="container grid grid-three-column portfolio-images">
+            <div class="img-overlay p-btn--1 p-btn--2">
+                <img src="images/folio1-min.jpg" alt="myworks"/>
+                <div class="overlay">
+                    <a 
+                        href="https://wdynamic.onrender.com/"
+                        target="_sakshi"
+                        class="common-heading"
+                        >Project 1</a
+                    >
+                </div>
+            </div>
+
+            <div class="img-overlay p-btn--1 p-btn--2">
+                <img src="images/folio2-min.jpg" alt="myworks"/>
+                <div class="overlay">
+                    <a 
+                        href="https://weatherweb-np6z.onrender.com"
+                        target="_sakshi"
+                        class="common-heading"
+                        >Project 2</a
+                    >
+                </div>
+            </div>
+
+            <div class="img-overlay p-btn--1 p-btn--2">
+                <img src="images/folio3-min.jpg" alt="myworks"/>
+                <div class="overlay">
+                    <a 
+                        href="https://splendorous-lebkuchen-891c7f.netlify.app/"
+                        target="_sakshi"
+                        class="common-heading"
+                        >Project 3</a
+                    >
+                </div>
+            </div>
+
+            <div class="img-overlay p-btn--1 p-btn--2">
+                <img src="images/folio4-min.jpg" alt="myworks"/>
+                <div class="overlay">
+                    <a 
+                        href="https://cheery-lollipop-903c5a.netlify.app/"
+                        target="_sakshi"
+                        class="common-heading"
+                        >Project 4</a
+                    >
+                </div>
+            </div>
+
+            <div class="img-overlay p-btn--3">
+                <img src="images/folio5-min.jpg" alt="myworks"/>
+                <div class="overlay">
+                    <a 
+                        href="https://www.codingninjas.com/studio/profile/akshu_17"
+                        target="_sakshi"
+                        class="common-heading"
+                        >Project 5</a
+                    >
+                </div>
+            </div>
+
+            <div class="img-overlay p-btn--3">
+                <img src="images/folio6-min.jpg" alt="myworks"/>
+                <div class="overlay">
+                    <a 
+                        href="https://leetcode.com/Sakshiwanare/"
+                        target="_sakshi"
+                        class="common-heading"
+                        >Project 6</a
+                    >
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--- =======================================================
+            Our work counter Section start
+    =====================================================  ---->
+
+    <section class="section section-work-data">
+        <div class="container grid grid-four-column">
+            <div>
+                <h2 class="counter-numbers" data-number="20">0+</h2>
+                <p>Project Completed</p>
+            </div>
+            <div>
+                <h2 class="counter-numbers" data-number="15">0+</h2>
+                <p>cup of coffees</p>
+            </div>
+            <div>
+                <h2 class="counter-numbers" data-number="17">0+</h2>
+                <p>website designed</p>
+            </div>
+            <div>
+                <h2 class="counter-numbers" data-number="10">0+</h2>
+                <p>real professional</p>
+            </div>
+        </div>
+    </section>
+    
+    <!--- =======================================================
+            Our Services Section start
+    =====================================================  ---->
+
+    <section class="section section-services">
+        <div class="container">
+            <h2 class="common-heading">Services Offers</h2>
+            <p>
+                Services offered by us | skillset.
+            </p>
+        </div>
+
+        <!-- services offers card -->
+        <div class="container grid grid-three-column">
+            <div class="service-box">
+                <ion-icon name="desktop-sharp" class="service-icon"></ion-icon>
+                <h3>Web Design</h3>
+                <p>
+                    "I can create visually appealing and user-friendly 
+                    websites by understanding client needs and using a variety of tools and 
+                    technologies."
+                </p>
+            </div>
+            <div class="service-box">
+                <ion-icon name="trail-sign-outline" class="service-icon"></ion-icon>
+                <h3>Web Development</h3>
+                <p>
+                    "Web Developer with a passion for web application development and success in managing development projects using Mern technologies like NodeJs, expressJs, MongoDB etc.
+                </p>
+            </div>
+            <div class="service-box">
+                <ion-icon name="musical-note-outline" class="service-icon"></ion-icon>
+                <h3>Singing</h3>
+                <p>
+                    "Bundeled up with musical notes and flow like a river nothing but the passionate for singing | music"
+                </p>
+            </div>
+            <div class="service-box">
+                <ion-icon name="warning-outline" class="service-icon"></ion-icon>
+                <h3>Mobile app</h3>
+                <p>
+                    "Novice in Design and Develop end to end Integrated mobile application using android studio"
+                </p>
+            </div>
+            <div class="service-box">
+                <ion-icon name="terminal-outline" class="service-icon"></ion-icon>
+                <h3>Programming</h3>
+                <p>
+                    "A computer programmer who specializes in developing algorithms and competing in programming competitions. Adapted with problem-solving and algorithm design & programming languages."
+                </p>
+            </div>
+            <div class="service-box">
+                <ion-icon name="grid-outline" class="service-icon"></ion-icon>
+                <h3>clipping path</h3>
+                <p>
+                    "Novice in use of clipping path services"
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!--- =======================================================
+            Testimonial Section start
+    =====================================================  ---->
+    <section class="section section-services">
+        <div class="container">
+            <h2 class="common-heading">Journey!</h2>
+        <!-- swiper -->
+        <div class="swiper mySwiper container">
+            <div class="swiper-wrapper">
+            <!-- section start -->
+            <div class="swiper-slide">
+                <div class="swiper-client-msg">
+                    <p>
+                        Late bhairomal tanwani vidyamandir | <br>94.40% | 2018
+                    </p>
+                </div>
+                <div class="swiper-client-data grid grid-two-column">
+                    <figure>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3752.8817206848234!2d75.23619327509662!3d19.844956981524465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdb9bd19b95fca5%3A0xd6a16d83ad517295!2sLate%20Bhairomal%20Tanawani%20Highschool!5e0!3m2!1sen!2sin!4v1689938896618!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </figure>
+                    <div class="client-data-details">
+                        <p>Education</p>
+                        <p>SSC</p>
+                    </div>
+                </div>
+            </div>
+            <!-- section start -->
+            <div class="swiper-slide">
+                <div class="swiper-client-msg">
+                    <p>
+                        SBES College of science |<br> 77.23% | 2020
+                    </p>
+                </div>
+                <div class="swiper-client-data grid grid-two-column">
+                    <figure>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3752.0019969991417!2d75.32472367509762!3d19.882137581495574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdb986db3e1c8f7%3A0x2e41ade8c14ddf84!2sS.B.E.S.%20College%20Of%20Science!5e0!3m2!1sen!2sin!4v1689939290240!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </figure>
+                    <div class="client-data-details">
+                        <p>Education</p>
+                        <p>HSC</p>
+                    </div>
+                </div>
+            </div>
+            <!-- section start -->
+            <div class="swiper-slide">
+                <div class="swiper-client-msg">
+                    <p>
+                        Walchand College Of Engineering |<br> 2020-2024
+                    </p>
+                </div>
+                <div class="swiper-client-data grid grid-two-column">
+                    <figure>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3818.609076472005!2d74.59888257502207!3d16.845738683952007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc1237f52c65db5%3A0xa3535676176ded0a!2sWalchand%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1689939328842!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </figure>
+                    <div class="client-data-details">
+                        <p>Education</p>
+                        <p>BTech</p>
+                    </div>
+                </div>
+            </div>
+            <!-- section start -->
+            <div class="swiper-slide">
+                <div class="swiper-client-msg">
+                    <p>
+                        Attended Intern Shala training event on World Education Day Fair 2022!
+                    </p>
+                </div>
+                <div class="swiper-client-data grid grid-two-column">
+                    <figure>
+                        <a href="https://drive.google.com/file/d/1Zvk9Wy8Y64I7-fc7VdJTN1GC9ygYMQzx/view?usp=sharing"><img src="images/intern.jpg" alt=""></a>
+                    </figure>
+                    <div class="client-data-details">
+                        <p>Workshop</p>
+                        <p>Internshala</p>
+                    </div>
+                </div>
+            </div>
+            <!-- section start -->
+            <div class="swiper-slide">
+                <div class="swiper-client-msg">
+                    <p>
+                        Participated in Solution Challenge Hackathon <br> organized by google.
+                    </p>
+                </div>
+                <div class="swiper-client-data grid grid-two-column">
+                    <figure>
+                        <img src="images/google.png" alt="client review">
+                    </figure>
+                    <div class="client-data-details">
+                        <p>Hackathon</p>
+                        <p>Google</p>
+                    </div>
+                </div>
+            </div>
+            <!-- section start -->
+            <div class="swiper-slide">
+                <div class="swiper-client-msg">
+                    <p>
+                        Mobile App Development intern in GRIP <br> at spark's foundation
+                    </p>
+                </div>
+                <div class="swiper-client-data grid grid-two-column">
+                    <figure>
+                        <a href="https://links-truecertificates.s3.ap-south-1.amazonaws.com/published/2022-25-25/DZJCE9NT2X.png"><img src="images/grip.png" alt=""></a>
+                    </figure>
+                    <div class="client-data-details">
+                        <p>Virtual Intern@</p>
+                        <p>Sparks Foundation</p>
+                    </div>
+                </div>
+            </div>
+            <!-- section start -->
+            <div class="swiper-slide">
+                <div class="swiper-client-msg">
+                    <p>
+                        Attend ESG Virtual Program <br>by Tcs
+                    </p>
+                </div>
+                <div class="swiper-client-data grid grid-two-column">
+                    <figure>
+                        <a href="https://drive.google.com/file/d/1_TriZi88AxVPGKHwqXAtFyTH1sgOMBma/view?usp=sharing"><img src="images/tcs.png" alt=""></a>
+                    </figure>
+                    <div class="client-data-details">
+                        <p>Workshop</p>
+                        <p>TCS</p>
+                    </div>
+                </div>
+            </div>
+            <!-- section start -->
+            <div class="swiper-slide">
+                <div class="swiper-client-msg">
+                    <p>
+                        Participated in hackathon <br> hacktoberfest 2022!
+                    </p>
+                </div>
+                <div class="swiper-client-data grid grid-two-column">
+                    <figure>
+                        <img src="images/hack.png" alt="client review">
+                    </figure>
+                    <div class="client-data-details">
+                        <p>Hackathon</p>
+                        <p>hacktoberfest 2022</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+     
+    <!--- =======================================================
+            Our freelancing Section start
+    =====================================================  ---->
+     
+    <section class="section section-freelancing">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2>I am <span>availble</span> for freelancing:)</h2>
+            <p>
+                I can design end to end integrated web / mobile applications..
+            </p>
+            <a href="/contact.html" class="btn">HIRE ME</a>
+        </div>
+    </section>
+
+    <!--- =======================================================
+            Our contact Section start
+    =====================================================  ---->
+
+    <section class="section section-contact">
+        <div class="container">
+            <h2 class="common-heading">Contact Us</h2>
+        </div>
+
+        <div class="section-contact-main contact-container">
+            <form action="https://formspree.io/f/xqkvkoaw" method="POST">
+                <div class="grid grid-two-column">
+                    <div>
+                        <label for="username"></label>
+                        <input 
+                            type="text" 
+                            name="username" 
+                            placeholder="Username" 
+                            id="username"
+                            autocomplete="off"
+                            required
+                        />
+                    </div>
+                    <div>
+                        <label for="eamil"></label>
+                        <input 
+                            type="email" 
+                            name="email" 
+                            placeholder="demo@gmail.com" 
+                            id="email"
+                            autocomplete="off"
+                            required
+                        />
+                    </div>
+                </div>
+
+                <div>
+                    <label for=""></label>
+                    <input type="text" name="subject" placeholder="subject" id="subject" required>
+                </div>
+
+                <div>
+                    <label for="textarea"></label>
+                    <textarea 
+                        name="textarea" 
+                        id="textarea" 
+                        placeholder="Write Your Message"
+                        cols="30" 
+                        rows="10"
+                        required
+                    ></textarea>
+                </div>
+    
+                <div>
+                    <input type="submit" name="submit" id="submit" class="btn" value="send message"/>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!--- =======================================================
+            Our footer start
+    =====================================================  ---->
+
+    <footer class="section-footer section">
+        <div class="container grid grid-four-column">
+            <div class="f-about">
+                <h3>About</h3>
+                <p>
+                    we have tested a number of registry fix and clean utilities and 
+                    present our top 3 list on our site for your convenience. Hope your
+                    like it.
+                </p>
+            </div>
+            <!-- end -->
+            <div class="f-links">
+                <h3>Links</h3>
+                <ul>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+                        ><a href="#">home</a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+                        ><a href="#">about</a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+                        ><a href="#">services</a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+                        ><a href="#">portfolio</a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+                        ><a href="#">contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- end -->
+            <div class="f-services">
+                <h3>Services</h3>
+                <ul>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+                        ><a href="#">web design</a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+                        ><a href="#">web development</a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+                        ><a href="#">mern project</a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+                        ><a href="#">programming</a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+                        ><a href="#">Singing</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- end -->
+            <div class="f-address">
+                <h3>Have a Question?</h3>
+                <address>
+                    <div>
+                        <p>
+                            <span><ion-icon name="location-outline"></ion-icon></span>
+                            sambhajinagar, India
+                        </p>
+                    </div>
+
+                    <div>
+                        <p>
+                            <span><ion-icon name="call-outline"></ion-icon></span>
+                            <a href="tel:+919284872082">+91 9284872082</a>
+                        </p>
+                    </div>
+
+                    <div>
+                        <p>
+                            <span><ion-icon name="mail-outline"></ion-icon></span>
+                            <a href="mailto:sakshiwanare87@gmail.com">sakshiwanare87@gmail.com</a>
+                        </p>
+                    </div>
+                </address>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="f-social-icons">
+                <a href="https://github.com/sid28122005" target="_blank">
+                    <ion-icon name="logo-github" class="icons"></ion-icon>
+                </a>
+
+                <a href="https://www.linkedin.com/in/sakshi-wanare-5390bb206/" target="_blank">
+                    <ion-icon name="logo-linkedin" class="icons"></ion-icon>
+                </a>
+
+                <a href="https://twitter.com/Sakshi__Wanare" target="_blank">
+                    <ion-icon name="logo-twitter" class="icons"></ion-icon>
+                </a>
+            </div>
+
+            <div class="f-credits">
+                <p>
+                    Copyright ©2023 All rights reserved | This template is made with ✌️ by Sakshi Wanare
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!--- =======================================================
+            Our javascript Section start
+    =====================================================  ---->
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</body>
+</html>
